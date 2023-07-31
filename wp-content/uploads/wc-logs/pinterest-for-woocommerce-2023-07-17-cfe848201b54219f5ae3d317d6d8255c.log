@@ -1,0 +1,12 @@
+2023-07-17T07:33:04+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 6: Couldn't resolve host 'api.pinterest.com'
+2023-07-17T07:33:57+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 6: Couldn't resolve host 'api.pinterest.com'
+2023-07-17T07:34:09+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 6: Couldn't resolve host 'api.pinterest.com'
+2023-07-17T07:35:04+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 6: Couldn't resolve host 'api.pinterest.com'

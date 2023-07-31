@@ -1,0 +1,36 @@
+2023-07-23T11:52:29+00:00 CRITICAL Uncaught Error: Call to a member function get_page_permastruct() on null in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php:431
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php(393): _get_page_link(Object(WP_Post), false, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php(197): get_page_link(Object(WP_Post), false, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/post.php(4550): get_permalink(Object(WP_Post))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/appexperts/includes/integrations/woocommerce/app-expert-woocommerce-init.php(18): wp_insert_post(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/appexperts/includes/init/abstracts/app-expert-integration.php(13): App_Expert_Woocommerce_Init->_include_hooks()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(308): App_Expert_Integration->includes('')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-settings.php(486): do_action('plugins_loaded')
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config.php(97): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-load.php(50): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(34): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/plugins.php(10): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php on line 431
+
+2023-07-23T11:55:18+00:00 CRITICAL Uncaught Error: Call to a member function get_page_permastruct() on null in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php:431
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php(393): _get_page_link(Object(WP_Post), false, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php(197): get_page_link(Object(WP_Post), false, false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/post.php(4550): get_permalink(Object(WP_Post))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/appexperts/includes/integrations/woocommerce/app-expert-woocommerce-init.php(32): wp_insert_post(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/appexperts/includes/init/abstracts/app-expert-integration.php(13): App_Expert_Woocommerce_Init->_include_hooks()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(308): App_Expert_Integration->includes('')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-settings.php(486): do_action('plugins_loaded')
+#9 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config.php(97): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-load.php(50): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/admin.php(34): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-admin/plugin-install.php(16): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-includes/link-template.php on line 431
+

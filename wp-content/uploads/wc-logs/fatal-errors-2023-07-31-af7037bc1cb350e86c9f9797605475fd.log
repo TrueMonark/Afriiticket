@@ -1,0 +1,15 @@
+2023-07-31T07:34:10+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/Applications/XAMPP/xamppfiles/htdocs/Afriiticket/wp-content/uploads/print-invoices-packing-slip-labels-for-woocommerce): Failed to open directory: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/simply-static/src/tasks/class-ss-setup-task.php:124
+Stack trace:
+#0 [internal function]: RecursiveDirectoryIterator->__construct('/Applications/X...', 4096)
+#1 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/simply-static/src/tasks/class-ss-setup-task.php(124): RecursiveDirectoryIterator->getChildren()
+#2 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/simply-static/src/tasks/class-ss-setup-task.php(62): Simply_Static\Setup_Task::add_additional_files_to_db('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/simply-static/src/class-ss-archive-creation-job.php(142): Simply_Static\Setup_Task->perform()
+#4 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): Simply_Static\Archive_Creation_Job->task('setup')
+#5 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(175): WP_Background_Process->handle()
+#6 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-includes/class-wp-hook.php(308): WP_Background_Process->maybe_handle('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-admin/admin-ajax.php(188): do_action('wp_ajax_wp_arch...')
+#10 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/afriiticket/wp-content/plugins/simply-static/src/tasks/class-ss-setup-task.php on line 124
+
